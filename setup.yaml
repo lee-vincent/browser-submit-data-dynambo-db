@@ -60,9 +60,6 @@ Resources:
               - cognito-sync:*
             Effect: Allow
             Resource: "*"
-          - Action: sns:Publish
-            Effect: Allow
-            Resource: "*"
           - Action: dynamodb:PutItem
             Effect: Allow
             Resource: "*"
