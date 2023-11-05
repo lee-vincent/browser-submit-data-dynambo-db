@@ -22799,7 +22799,8 @@ var __webpack_exports__ = {};
   \***********************************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   submitData: () => (/* binding */ submitData)
+/* harmony export */   submitData: () => (/* binding */ submitData),
+/* harmony export */   vinnieEvent: () => (/* binding */ vinnieEvent)
 /* harmony export */ });
 /* harmony import */ var _aws_sdk_client_dynamodb__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @aws-sdk/client-dynamodb */ "./node_modules/@aws-sdk/client-dynamodb/dist-es/commands/PutItemCommand.js");
 /* harmony import */ var _libs_dynamoClient_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../libs/dynamoClient.js */ "./src/libs/dynamoClient.js");
@@ -22900,8 +22901,12 @@ var submitData = /*#__PURE__*/function () {
     return _ref.apply(this, arguments);
   };
 }();
+var vinnieEvent = function vinnieEvent() {
+  console.log("vinnieEvent");
+};
 // Expose the function to the browser
 window.submitData = submitData;
+window.vinnieEvent = vinnieEvent;
 // snippet-end:[s3.JavaScript.cross-service.addDataV3.function]
 // snippet-end:[s3.JavaScript.cross-service.addDataV3.complete]
 })();
